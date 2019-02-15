@@ -4,7 +4,8 @@
   "description": "Store API using fastify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
   },
   "author": "Gabo Lugo",
   "license": "ISC",
@@ -15,6 +16,9 @@
     "mongoose": "^5.4.12"
   },
   "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
     "nodemon": "^1.18.10"
   }
 }
