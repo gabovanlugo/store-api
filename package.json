@@ -13,7 +13,7 @@
     "boom": "^7.3.0",
     "fastify": "^1.14.1",
     "fastify-swagger": "^1.2.0",
-    "mongoose": "^5.4.12"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "eslint": "^5.14.0",
